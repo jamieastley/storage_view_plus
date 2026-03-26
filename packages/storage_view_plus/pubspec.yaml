@@ -4,7 +4,8 @@ version: 0.2.0-dev.1
 homepage: https://github.com/jamieastley/storage_view_plus
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
+resolution: workspace
 
 dependencies:
   flutter:

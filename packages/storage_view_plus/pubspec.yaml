@@ -1,0 +1,20 @@
+name: storage_view_plus
+description: Flutter inspector tool for any database, storage and shared_preferences
+version: 0.2.0-dev.1
+homepage: https://github.com/jamieastley/storage_view_plus
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  talker: ^5.0.0
+  talker_flutter: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:

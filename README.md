@@ -1,10 +1,10 @@
-<h1 align="center"> StorageView 🔎</h1>
+<h1 align="center"> StorageViewPlus 🔎</h1>
 <h3 align="center"> Flutter inspector tool for any database, storage and shared_preferences. <br>Check and modify database values from UI of application.</h3>
-<p align="center">Show some ❤️ and <a href="https://github.com/Frezyx/storage_view">star the repo</a> to support the project!</p>
+<p align="center">A maintained fork of <a href="https://github.com/Frezyx/storage_view">Frezyx/storage_view</a>, who created the original StorageView packages.</p>
 
 <div align="center" >
-  <a href="https://github.com/Frezyx/storage_view/blob/main/docs/assets/storage_view_desktop.gif?raw=true">
-    <img src="https://github.com/Frezyx/storage_view/blob/main/docs/assets/storage_view_desktop.gif?raw=true"/>
+  <a href="https://github.com/jamieastley/storage_view_plus/blob/main/docs/assets/storage_view_desktop.gif?raw=true">
+    <img src="https://github.com/jamieastley/storage_view_plus/blob/main/docs/assets/storage_view_desktop.gif?raw=true"/>
   </a>
 </div>
 
@@ -15,21 +15,21 @@ Follow these steps to use this package
 
 ```yaml
 dependencies:
-  storage_view: ^0.1.0-dev.5
+  storage_view_plus: <version>
 ```
 
 ### Add import package
 
 ```dart
-import 'package:storage_view/storage_view.dart';
+import 'package:storage_view_plus/storage_view.dart';
 ```
 
 ### Implement driver
-The package uses a driver [StorageDriver](https://github.com/Frezyx/storage_view/blob/main/packages/storage_view/lib/src/models/storage_driver.dart) to interact with the database. <br>
+The package uses a driver [StorageDriver](https://github.com/jamieastley/storage_view_plus/blob/main/packages/storage_view_plus/lib/src/models/storage_driver.dart) to interact with the database. <br>
 In order to connect your database you should use one of available drivers: <br>
 
-- [shared_preferences_storage_view_driver](https://github.com/Frezyx/storage_view/tree/main/packages/shared_preferences_storage_view_driver) that works with [shared_preferences](https://pub.dev/packages/shared_preferences) <br> See [example](https://github.com/Frezyx/storage_view/tree/main/packages/shared_preferences_storage_view_driver/example) for more information
-- [flutter_secure_storage_view_driver](https://github.com/Frezyx/storage_view/tree/main/packages/flutter_secure_storage_view_driver) that works with [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage) <br> See [example](https://github.com/Frezyx/storage_view/tree/main/packages/flutter_secure_storage_view_driver/example) for more information
+- [shared_preferences_storage_view_driver](https://github.com/jamieastley/storage_view_plus/tree/main/packages/shared_preferences_storage_view_driver) that works with [shared_preferences](https://pub.dev/packages/shared_preferences) <br> See [example](https://github.com/Frezyx/storage_view_plus/tree/main/packages/shared_preferences_storage_view_driver/example) for more information
+- [flutter_secure_storage_view_driver](https://github.com/jamieastley/storage_view_plus/tree/main/packages/flutter_secure_storage_view_driver) that works with [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage) <br> See [example](https://github.com/Frezyx/storage_view_plus/tree/main/packages/flutter_secure_storage_view_driver/example) for more information
 
 Or create your own StorageDriver implementation like there:
 ```dart
@@ -69,13 +69,6 @@ Scaffold(
 ),
 ```
 
-  <a href="https://github.com/Frezyx/storage_view"><img src="https://hits.dwyl.com/Frezyx/storage_view.svg?style=flat" alt="Repository views"></a>
+## Issues
 
-## Additional information
-The project is under development and ready for your pull-requests and issues 👍<br>
-Thank you for support ❤️
-
-
-For help getting started with 😍 Flutter, view
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+For any issues, please create an issue on the correct [GitHub repository](https://github.com/jamieastley/storage_view_plus/issues).

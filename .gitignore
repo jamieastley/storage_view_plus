@@ -3,3 +3,10 @@
 *.ipr
 *.iws
 .idea/
+
+# Dart workspaces
+.dart_tool/
+package_config.json
+
+# Builds
+build/

@@ -23,3 +23,4 @@ jobs:
           workspace-root: ${{ github.workspace }}
       - name: flutter analyze
         run: flutter analyze
+        working-directory: ${{ matrix.package }}

@@ -20,5 +20,6 @@ jobs:
       - uses: moonrepo/setup-toolchain@v0
         with:
           auto-install: true
+          workspace-root: ${{ github.workspace }}
       - name: flutter analyze
         run: flutter analyze

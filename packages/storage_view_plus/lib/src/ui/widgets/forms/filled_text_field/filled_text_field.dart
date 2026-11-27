@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 
 class FilledTextField extends StatelessWidget {
   const FilledTextField({

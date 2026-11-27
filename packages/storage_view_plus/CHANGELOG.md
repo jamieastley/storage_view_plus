@@ -1,3 +1,7 @@
+## 0.2.0-dev.1
+
+- chore: rename package to prepare for pub.dev publish (#1)
+
 ## 0.1.0-dev.5
 - Support talker ^5.0.0
 

@@ -4,7 +4,7 @@ import 'package:storage_view_plus/src/ui/utils/utils.dart';
 import 'package:storage_view_plus/src/ui/widgets/forms/edit/entry_info.dart';
 import 'package:storage_view_plus/src/ui/widgets/forms/edit/typed/typed.dart';
 import 'package:storage_view_plus/src/ui/widgets/widgets.dart';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 
 class EditFieldForm extends StatefulWidget {
   const EditFieldForm({

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 import 'package:uuid/uuid.dart';
 
 class MockStorageDriver implements StorageDriver {

@@ -3,7 +3,7 @@ import 'package:storage_view_plus/src/ui/controller/storage_viewer_controller.da
 import 'package:storage_view_plus/src/ui/utils/utils.dart';
 import 'package:storage_view_plus/src/ui/widgets/forms/edit/edit_field_form.dart';
 import 'package:storage_view_plus/src/ui/widgets/widgets.dart';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 
 class StorageTable extends StatefulWidget {
   const StorageTable({

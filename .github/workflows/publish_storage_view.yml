@@ -23,7 +23,14 @@ jobs:
       - uses: moonrepo/setup-toolchain@v0
         with:
           auto-install: true
+      - name: Read Dart version
+        id: dart-version
+        run: |
+          version=$(python3 -c 'import os, tomllib; print(tomllib.load(open(os.path.join(os.environ["GITHUB_WORKSPACE"], ".prototools"), "rb"))["dart"])')
+          echo "version=$version" >> "$GITHUB_OUTPUT"
       - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: ${{ steps.dart-version.outputs.version }}
       - name: Get Flutter packages
         run: flutter pub get
       - name: Publish to pub.dev

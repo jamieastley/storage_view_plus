@@ -142,7 +142,7 @@ class _EditFieldFormState extends State<EditFieldForm> {
                           icon: const Icon(Icons.close),
                           style: ButtonStyle(
                             backgroundColor:
-                                MaterialStateProperty.all(Colors.red),
+                                WidgetStateProperty.all(Colors.red),
                           ),
                         ),
                       ),

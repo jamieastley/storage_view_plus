@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 
 class InfoRow extends StatelessWidget {
   const InfoRow({

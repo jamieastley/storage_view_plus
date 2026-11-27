@@ -6,7 +6,7 @@ import 'package:storage_view_plus/src/ui/widgets/alerts/alerts.dart';
 import 'package:storage_view_plus/src/ui/widgets/forms/forms.dart';
 import 'package:storage_view_plus/src/ui/widgets/responsive/responsive_builder.dart';
 import 'package:storage_view_plus/src/ui/widgets/widgets.dart';
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 class StorageView extends StatefulWidget {

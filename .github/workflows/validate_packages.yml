@@ -1,0 +1,25 @@
+name: Validate packages
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate_packages:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package:
+          - packages/flutter_secure_storage_view_driver
+          - packages/shared_preferences_storage_view_driver
+          - packages/storage_view_plus
+    name: Validate ${{ matrix.package }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: moonrepo/setup-toolchain@v0
+        with:
+          auto-install: true
+      - name: flutter analyze
+        run: flutter analyze
+        working-directory: ${{ matrix.package }}

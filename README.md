@@ -21,7 +21,7 @@ dependencies:
 ### Add import package
 
 ```dart
-import 'package:storage_view_plus/storage_view.dart';
+import 'package:storage_view_plus/storage_view_plus.dart';
 ```
 
 ### Implement driver

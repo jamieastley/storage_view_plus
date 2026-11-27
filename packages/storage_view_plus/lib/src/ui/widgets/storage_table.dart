@@ -178,6 +178,6 @@ class _StorageTableState extends State<StorageTable> {
   }
 
   TableBorder _getDefaultTableBorder() {
-    return TableBorder.all(color: Colors.white.withOpacity(0.2), width: 1);
+    return TableBorder.all(color: Colors.white.withValues(alpha: 0.2), width: 1);
   }
 }

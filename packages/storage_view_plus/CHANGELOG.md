@@ -1,3 +1,7 @@
+## 0.2.0
+
+- chore!: migrate MaterialStateProperty -> WidgetStateProperty, require Flutter ^3.22 (#5⁠)
+
 ## 0.2.0-dev.1
 
 - chore: rename package to prepare for pub.dev publish (#1)

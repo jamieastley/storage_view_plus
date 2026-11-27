@@ -59,7 +59,7 @@ class DeleteConfirmationModal extends StatelessWidget {
                         Navigator.pop(context, true);
                       },
                       style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all(Colors.red),
+                        backgroundColor: WidgetStateProperty.all(Colors.red),
                       ),
                       child: const Text('Yes'),
                     ),

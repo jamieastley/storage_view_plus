@@ -2,6 +2,8 @@ name: Publish storage_view_plus to pub.dev
 
 on:
   push:
+    branches: # delete after testing
+      - feature/gh-actions
     tags:
       - 'storage_view_plus-v[0-9]+.[0-9]+.[0-9]+'
 

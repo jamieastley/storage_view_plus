@@ -1,6 +1,6 @@
 name: storage_view_plus
 description: Flutter inspector tool for any database, storage and shared_preferences
-version: 0.2.0-dev.1
+version: 0.2.0-dev.2
 homepage: https://github.com/jamieastley/storage_view_plus
 
 environment:
